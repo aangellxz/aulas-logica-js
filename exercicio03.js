@@ -9,4 +9,4 @@ function resultadoFinal(media){
     }
   }
 
-resultadoFinal(8)
+resultadoFinal(6)
