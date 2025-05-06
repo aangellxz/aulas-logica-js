@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Javascript</title>
+</head>
+<body>
+    
+    <button onclick="alert('Abrindo a janela inline')">Clique Aqui!</button>
+
+    <button id="abreAlert">Abre Janela Incorporado</button>
+    <button id="abreAlertVinculado">Abre Janela Vinculado</button>
+
+    <script>
+        const btAbreAlert = document.getElementById("abreAlert")
+        // console.log("Botão alert",btAbreAlert)
+        btAbreAlert.addEventListener("click", ()=>{
+            alert("Abrindo Janela no Código Incorporado")
+        })
+    </script>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
